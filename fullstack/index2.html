@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ti</title>
+</head>
+<body>
+<h1>javascript function</h1>
+<p>output is:</p>
+<p id="demo"></p>
+<script>
+function display(some){
+document.getElementById("demo").innerHTML=some;
+}
+
+function myCalculation(num1,num2){
+let sum=num1+num2;
+return sum;
+}
+let result = myCalculation(5,5);
+display(result);
+</script>
+</body>
+</html>
